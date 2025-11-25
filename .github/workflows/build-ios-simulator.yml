@@ -40,8 +40,8 @@ jobs:
         run: |
           cd ios
           xcodebuild \
-            -workspace empty-rn-app.xcworkspace \
-            -scheme empty-rn-app \
+            -workspace emptyrnapp.xcworkspace \
+            -scheme emptyrnapp \
             -configuration Debug \
             -sdk iphonesimulator \
             -derivedDataPath build
